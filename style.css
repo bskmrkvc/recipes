@@ -14,7 +14,10 @@
     box-shadow: 0px 36px 62px 3px rgba(0,0,0,0.7);
     background-color: #ececec;
     font-size: 16px;
-    padding: 3em 2.8em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 1em;
+    padding-left:1em;
     width: 90vw;
     max-width: 32em;
     position: absolute;
@@ -31,7 +34,7 @@
   }
   .search-container input {
     font-size: 1em;
-    padding: 0.6em;
+    padding: 0.4em;
     border: none;
     background-color: transparent;
     box-shadow:  inset -10px -10px 15px rgba(255,255,255,0.55),
@@ -46,6 +49,7 @@
     letter-spacing: 1.3px;
   }
   .search-container button {
+    margin-right: 2em;
     font-size: 0.8em;
     background-color: transparent;
     box-shadow:  inset -10px -10px 15px rgba(255,255,255,0.55),
@@ -54,6 +58,7 @@
     border-radius: 7px;
     font-weight: 600;
     color: #1e6e2b;
+    padding: 0.4em;
   }
   img {
     display: block;
@@ -63,9 +68,11 @@
   }
   .details {
     position: relative;
-    margin: -2.3em 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 0.6em 0;
+    padding: 0.6em;
     color: #1e6e2b;
     box-shadow:  -10px -10px 15px rgba(255,255,255,0.55),
     10px 10px 15px rgba(70,70,70,0.12);
@@ -150,6 +157,6 @@
         background-size: 150%;
     }
     .container {
-      font-size: 14px;
+      font-size: 15px;
     }
   }
